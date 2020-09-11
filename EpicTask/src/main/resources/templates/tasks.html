@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:include="_template :: head" ></head>
+
+<body>
+	<h1 th:text="#{task}"></h1>
+	
+	<nav th:include="_template :: menu('task')" ></nav>
+</body>
+</html>
